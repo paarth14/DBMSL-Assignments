@@ -5,7 +5,7 @@ mysql> show databases;
 +--------------------+
 | information_schema |
 | A |
-| Abhi |
+| db3 |
 | COMPUTER |
 | H |
 | PVG |
@@ -19,7 +19,7 @@ mysql> show databases;
 | time |
 +--------------------+
 14 rows in set (0.21 sec)
-mysql> use Abhi;
+mysql> use db3;
 Reading table information for completion of table and column names
 You can turn off this feature to get a quicker startup with -ADatabase changed
 mysql> show tables;
