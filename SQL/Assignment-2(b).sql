@@ -5,7 +5,7 @@ mysql> show databases;
 +--------------------+
 | information_schema |
 | A |
-| Abhi |
+| db1 |
 | PVG |
 | RENUKA |
 | mysql |
@@ -16,7 +16,7 @@ mysql> show databases;
 | time |
 +--------------------+
 11 rows in set (0.11 sec)
-mysql> use Abhi;
+mysql> use db1;
 Database changed
 mysql> create table Employee(emp_no int,emp_name varchar(20),date date,position
 varchar(20));
